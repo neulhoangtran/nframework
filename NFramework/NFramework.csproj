@@ -8,4 +8,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Core\Events\" />
+    <Folder Include="Core\Plugins\" />
+    <Folder Include="Core\Utilities\" />
+    <Folder Include="I18n\" />
+    <Folder Include="Modules\User\Controllers\" />
+    <Folder Include="Modules\User\Models\" />
+    <Folder Include="Modules\User\Views\" />
+    <Folder Include="Modules\User\Services\" />
+    <Folder Include="Modules\User\Repositories\" />
+  </ItemGroup>
+
 </Project>
