@@ -1,3 +1,5 @@
+using NFramework.App;
+
 namespace NFramework
 {
     internal static class Program
@@ -11,6 +13,11 @@ namespace NFramework
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+
+            new Autoload();
+
+          //Module.GetModules();
+            //mod.
             //Application.Run(new Form1());
             //MessageBox.Show("tét");
         }

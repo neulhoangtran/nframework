@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NFramework.Modules.User
+namespace NFramework.Core.Interfaces
 {
-    internal class User
+    public interface IApplication
     {
+        string AppName { set;  get; }
+
     }
 }

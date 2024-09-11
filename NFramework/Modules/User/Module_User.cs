@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NFramework.Core
+namespace NFramework.Modules.User
 {
-    internal class AutoloadModules
+    internal class Module_User
     {
     }
 }
