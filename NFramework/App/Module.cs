@@ -18,7 +18,7 @@ namespace NFramework.App
         List<ModuleEntity> _modules = new List<ModuleEntity>();
         public Module()
         {
-            GetModules();
+            //GetModules();
         }
 
         public List<ModuleEntity> GetModules()
@@ -43,8 +43,19 @@ namespace NFramework.App
             }
 
         }
+    }
 
-
+    public static class Modules
+    {
+        public static List<IModule> GetModules() {
+            List<IModule> _modules = new List<IModule>();
+            string modulesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Modules");
+            var moduleFiles = Directory.GetFiles(modulesPath, "*.cs", SearchOption.AllDirectories);
+            //var test = File.Exists() ? "a" : "b";
+            //MessageBox.Show(test);
+            //return 
+            return _modules;
+        }
     }
 
 }

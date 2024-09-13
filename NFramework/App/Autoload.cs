@@ -29,6 +29,12 @@ namespace NFramework.App
                 MessageBox.Show("test");
             }
             else {
+                string modulesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Modules");
+                //var moduleFiles = Directory.GetFiles(modulesPath, "*.cs", SearchOption.AllDirectories);
+                var test = Directory.Exists(modulesPath) == false ? "a" : "b";
+                MessageBox.Show(test);
+                //MessageBox.Show(test);
+                //Modules.GetModules();
                 Application.Run(new Start()); 
             }
         }
