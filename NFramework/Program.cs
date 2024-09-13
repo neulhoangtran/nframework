@@ -15,6 +15,7 @@ namespace NFramework
             ApplicationConfiguration.Initialize();
 
             new Autoload();
+            //app.Run();
 
           //Module.GetModules();
             //mod.

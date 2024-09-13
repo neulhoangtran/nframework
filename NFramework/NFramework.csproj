@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="App\Config\" />
     <Folder Include="I18n\" />
     <Folder Include="Modules\Setup\View\" />
     <Folder Include="Modules\User\Controllers\" />

@@ -1,0 +1,233 @@
+﻿1 app chạy
+	- kiểm tra có file module chưa 
+		- nếu chưa có tức là app chạy lần đầu 
+		-> load function, class cần thiết để chạy chương trình 
+		-> UI: Nhập Tên app -> sẽ hiển thị ở các window form
+		-> chọn ngôn ngữ
+		-> load data ngôn ngữ 
+		-> kiểm tra kết nối database 
+		-> hiển thị các module 
+		-> lưu d/s module 
+		-> khởi chạy các module 
+		-> lưu cấu hình db ở file application.json
+
+
+		file module.json
+			{
+				"modules": [
+
+					.....
+				]
+			}
+
+	- kiểm tra có file application chưa 
+		nếu chưa có thì check file module để cài đặt lại chương trình 
+
+
+
+		application có các giá trị như 
+			- App Name 
+			- Locale 
+			- Debug
+			- Timezone
+			- DB_HOST
+			- DB_USER 
+			- DB_PASSWORD
+			- DB_PORT
+
+
+
+
+
+
+
+
+
+
+			See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
+
+************** Exception Text **************
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NFramework.App.Init.Start.btnStart_Click(Object sender, EventArgs e) in C:\Users\HYV\source\repos\NFramework\NFramework\App\Init\Start.cs:line 79
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+
+
+************** Loaded Assemblies **************
+System.Private.CoreLib
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Private.CoreLib.dll
+----------------------------------------
+NFramework
+    Assembly Version: 1.0.0.0
+    Location: C:\Users\HYV\source\repos\NFramework\NFramework\bin\Debug\net8.0-windows\NFramework.dll
+----------------------------------------
+System.Runtime
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Runtime.dll
+----------------------------------------
+Microsoft.Extensions.DotNetDeltaApplier
+    Assembly Version: 17.0.0.0
+    Location: c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\hotreload\Microsoft.Extensions.DotNetDeltaApplier.dll
+----------------------------------------
+System.IO.Pipes
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.IO.Pipes.dll
+----------------------------------------
+System.Linq
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Linq.dll
+----------------------------------------
+System.Collections
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Collections.dll
+----------------------------------------
+System.Windows.Forms
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Windows.Forms.dll
+----------------------------------------
+System.Windows.Forms.Primitives
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Windows.Forms.Primitives.dll
+----------------------------------------
+System.Collections.Concurrent
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Collections.Concurrent.dll
+----------------------------------------
+System.Runtime.InteropServices
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Runtime.InteropServices.dll
+----------------------------------------
+System.Threading
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Threading.dll
+----------------------------------------
+System.Console
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Console.dll
+----------------------------------------
+System.Diagnostics.TraceSource
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Diagnostics.TraceSource.dll
+----------------------------------------
+System.ComponentModel.Primitives
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.ComponentModel.Primitives.dll
+----------------------------------------
+System.Threading.Overlapped
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Threading.Overlapped.dll
+----------------------------------------
+System.Drawing.Primitives
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Drawing.Primitives.dll
+----------------------------------------
+System.Security.AccessControl
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Security.AccessControl.dll
+----------------------------------------
+System.Drawing.Common
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Drawing.Common.dll
+----------------------------------------
+System.Security.Principal.Windows
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Security.Principal.Windows.dll
+----------------------------------------
+System.Collections.Specialized
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Collections.Specialized.dll
+----------------------------------------
+System.Security.Claims
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Security.Claims.dll
+----------------------------------------
+System.Runtime.Loader
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Runtime.Loader.dll
+----------------------------------------
+Microsoft.Win32.Primitives
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\Microsoft.Win32.Primitives.dll
+----------------------------------------
+System.ComponentModel.EventBasedAsync
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.ComponentModel.EventBasedAsync.dll
+----------------------------------------
+System.Threading.Thread
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Threading.Thread.dll
+----------------------------------------
+Accessibility
+    Assembly Version: 4.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\Accessibility.dll
+----------------------------------------
+System.ComponentModel.TypeConverter
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.ComponentModel.TypeConverter.dll
+----------------------------------------
+System.ComponentModel
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.ComponentModel.dll
+----------------------------------------
+System.Resources.Extensions
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Resources.Extensions.dll
+----------------------------------------
+System.Memory
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Memory.dll
+----------------------------------------
+System.Drawing
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Drawing.dll
+----------------------------------------
+System.ObjectModel
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.ObjectModel.dll
+----------------------------------------
+System.Numerics.Vectors
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Numerics.Vectors.dll
+----------------------------------------
+Microsoft.Win32.SystemEvents
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\Microsoft.Win32.SystemEvents.dll
+----------------------------------------
+System.Collections.NonGeneric
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Collections.NonGeneric.dll
+----------------------------------------
+System.Threading.ThreadPool
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Threading.ThreadPool.dll
+----------------------------------------
+System.Diagnostics.StackTrace
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Diagnostics.StackTrace.dll
+----------------------------------------
+System.Reflection.Metadata
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Reflection.Metadata.dll
+----------------------------------------
+System.Collections.Immutable
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Collections.Immutable.dll
+----------------------------------------
+System.IO.MemoryMappedFiles
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.IO.MemoryMappedFiles.dll
+----------------------------------------
+System.Text.Encoding.Extensions
+    Assembly Version: 8.0.0.0
+    Location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.8\System.Text.Encoding.Extensions.dll
+----------------------------------------
+
+************** JIT Debugging **************
+
+
