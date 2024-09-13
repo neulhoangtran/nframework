@@ -362,7 +362,7 @@ namespace NFramework.App.Init
             btnTestConnect.Name = "btnTestConnect";
             btnTestConnect.Size = new Size(151, 62);
             btnTestConnect.TabIndex = 10;
-            btnTestConnect.Text = "Test";
+            btnTestConnect.Text = "TEST";
             btnTestConnect.UseVisualStyleBackColor = false;
             btnTestConnect.Visible = false;
 

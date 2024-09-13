@@ -40,7 +40,7 @@
             // pictureBoxStart
             // 
             pictureBoxStart.Image = (Image)resources.GetObject("pictureBoxStart.Image");
-            pictureBoxStart.Location = new Point(292, 59);
+            pictureBoxStart.Location = new Point(588, 124);
             pictureBoxStart.Name = "pictureBoxStart";
             pictureBoxStart.Size = new Size(206, 142);
             pictureBoxStart.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -55,7 +55,7 @@
             // panel_txt_welcome
             // 
             panel_txt_welcome.BackColor = Color.Transparent;
-            panel_txt_welcome.Location = new Point(124, 208);
+            panel_txt_welcome.Location = new Point(420, 273);
             panel_txt_welcome.Name = "panel_txt_welcome";
             panel_txt_welcome.Size = new Size(553, 66);
             panel_txt_welcome.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             btnStart.BackColor = Color.Coral;
             btnStart.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnStart.Location = new Point(292, 280);
+            btnStart.Location = new Point(588, 345);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(206, 76);
             btnStart.TabIndex = 3;
@@ -79,7 +79,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(44, 41, 47);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1348, 701);
             Controls.Add(btnStart);
             Controls.Add(panel_txt_welcome);
             Controls.Add(pictureBoxStart);
